@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{03C03C24-28A2-460A-ABAC-904EDA4FC84E}</ProjectGuid>
+    <ProjectGuid>{D0FF55E2-1155-466A-AAFB-9B56CEB5D53E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Event_Delegates</RootNamespace>
-    <AssemblyName>Event_Delegates</AssemblyName>
+    <RootNamespace>Async_Await_Demo</RootNamespace>
+    <AssemblyName>Async_Await_Demo</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,12 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MailService.cs" />
-    <Compile Include="MessageService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Video.cs" />
-    <Compile Include="VideoEncoder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

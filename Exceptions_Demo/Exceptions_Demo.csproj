@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{03C03C24-28A2-460A-ABAC-904EDA4FC84E}</ProjectGuid>
+    <ProjectGuid>{2A357F9C-9EE2-4832-9F0B-DA78D182E042}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Event_Delegates</RootNamespace>
-    <AssemblyName>Event_Delegates</AssemblyName>
+    <RootNamespace>Exceptions_Demo</RootNamespace>
+    <AssemblyName>Exceptions_Demo</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,12 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MailService.cs" />
-    <Compile Include="MessageService.cs" />
+    <Compile Include="Calculator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Video.cs" />
-    <Compile Include="VideoEncoder.cs" />
+    <Compile Include="YouTubeApi.cs" />
+    <Compile Include="YoutubeException.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

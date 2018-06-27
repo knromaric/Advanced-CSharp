@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{03C03C24-28A2-460A-ABAC-904EDA4FC84E}</ProjectGuid>
+    <ProjectGuid>{A94E8E46-6508-4BF0-AC79-5E15FFAADC64}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Event_Delegates</RootNamespace>
-    <AssemblyName>Event_Delegates</AssemblyName>
+    <RootNamespace>Dynamic_Demo</RootNamespace>
+    <AssemblyName>Dynamic_Demo</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,12 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MailService.cs" />
-    <Compile Include="MessageService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Video.cs" />
-    <Compile Include="VideoEncoder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
